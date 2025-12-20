@@ -884,7 +884,7 @@ public:
         int idx = -1;
         for(int i=n-2;i>=0;i--){
             if(a[i]<a[i+1]){
-                
+                  
                     idx = i;
                     break;
 
