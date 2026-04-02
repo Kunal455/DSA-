@@ -108,7 +108,7 @@ int main(){
 */
 
 
-/*//Merge short
+//Merge short
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -163,7 +163,10 @@ int main(){
         cout<<arr[i]<<" ";
     }
 }
-*/
+
+
+arr = [5, 3, 8, 4, 2, 7, 1, 10]
+low = 0, high = 7
 
 /*class Solution {
 public:

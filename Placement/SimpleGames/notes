@@ -1,0 +1,45 @@
+//String important properties
+
+🔹 Search / Check
+s.find("abc") != string::npos      // check substring
+s.find('a') != string::npos       // check character
+s.contains("abc")   // C++20 only
+
+
+
+Substring
+s.substr(pos, len)
+
+
+
+🔹 Modify
+s.push_back('a')
+s.pop_back()
+s += "abc"
+
+
+🔹 Sort / Reverse
+sort(s.begin(), s.end())
+reverse(s.begin(), s.end())
+
+🔹 Remove
+s.erase(pos, len)
+s.erase(remove(s.begin(), s.end(), 'a'), s.end())
+
+
+
+🔹 Compare
+s1 == s2
+s1.compare(s2)
+
+
+🔹 Convert
+stoi("123")
+to_string(123)
+
+
+🔹 Character Functions
+isalpha(c)
+isdigit(c)
+tolower(c)
+toupper(c)

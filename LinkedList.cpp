@@ -1,5 +1,6 @@
 //Basic LinkedList
-/*#include<bits/stdc++.h>
+/*
+#include<bits/stdc++.h>
 using namespace std;
 struct Node{
     int data;
@@ -18,17 +19,7 @@ int main(){
     cout<<y->next;
 
 }
-
-
 */
-
-
-
-
-
-
-
-
 
 /*
 #include<bits/stdc++.h>
@@ -66,6 +57,7 @@ Node* DeleteHead(Node* head){
     head=head->next;
     return head;
 }
+    
 Node* DeleteTail(Node* head){
     if(head==nullptr || head->next == nullptr) return nullptr; 
     Node* temp = head;

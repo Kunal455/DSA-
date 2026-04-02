@@ -1,54 +1,17 @@
-#include<iostream>
-// #include<vector>
+#include<bits/stdc++.h>
 // using namespace std;
-// void sort(vector<int>& arr, int low, int mid, int high){
-//     int left = low;
-//     int right = mid+1;
-//     vector<int> temp;
-//     while(left<=mid && right<=high){
-//         if(arr[left]<=arr[right]){
-//             temp.push_back(arr[left]);
-//         }
-//         else{
-//             temp.push_back(arr[right]);
-//         }
+// bool isprime(int n){
+//     if(n<=1) return false;
+//     if(n<=3) return true;
+//     if(n%2==0 || n%3==0) return false;
+//     for(int i=5;i*i<=n;i+=6){
+//         if(n%i==0 || n%(i+2)==0) return false;
 //     }
 
-//     while(left<=mid){
-//         temp.push_back(arr[left]);
-//     }
-
-//     while(right<=high){
-//         temp.push_back(arr[right]);
-//     }
-
-//     for(int i=low;i<high;i++){
-//         arr[i] = temp[i-low];
-//     }
-// }
-// void merge(vector<int>& arr, int low, int high){
-//     if(low==high) return;
-//     int mid = (low+high)/2;
-//     merge(arr, low, mid);
-//     merge(arr, mid+1, high);
-//     sort(arr, low, mid, high);
-
+//     return true;
 // }
 // int main(){
 //     int n;
 //     cin>>n;
-//     vector<int> arr(n);
-//     for(int i=0;i<n;i++){
-//         cin>>arr[i];
-//     }
-
-//     for(int i=0;i<n;i++){
-//         cout<<arr[i]<<" ";
-//     }
-
-//     merge(arr,0,n);
-
-//     for(int i=0;i<n;i++){
-//         cout<<arr[i]<<" ";
-//     }
+//     cout<<isprime(n);
 // }
